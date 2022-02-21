@@ -1,0 +1,110 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcom {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0% ,rgba(147, 46, 241, 0.952) 50%,#27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 30px;
+    line-height: 1.2;
+    font-family:jokerman ;
+    font-weight: 300;
+}
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: jokerman;
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 29px;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3; 
+}
+.section1 {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.tab{
+    position: fixed;
+    top: 0px;
+    background: #27ae60;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 10;
+    list-style: none;
+}
+.links{
+    float: none;
+    color: #99EDC3;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+.links:hover {
+    background-color: aqua;
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+#contact{
+    background: #d4f544f5;
+}
+#contact iframe
+{
+    width: 100%;
+}
+.contact1 h3
+{
+    display: inline;
+}
+.contact1 a{
+     
+    color: aliceblue;
+    text-shadow: 5px 5px 5px rgba(50, 226, 144, 0.822);
+}
